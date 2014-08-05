@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:background="#fffffbf7"
+            android:editable="false"
+            android:layout_marginTop="58dp" android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" android:textColor="#ffff3327"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_marginTop="48dp" android:background="#ffffffff"
+            android:layout_below="@+id/editText" android:layout_alignLeft="@+id/editText"
+            android:textColor="#ffff214c"/>
+    <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Password"
+            android:id="@+id/radioButton" android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/editText2"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/button"
+            android:layout_below="@+id/radioButton" android:layout_alignLeft="@+id/radioButton"
+            android:layout_marginTop="43dp"/>
+    <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:id="@+id/button2" android:layout_alignTop="@+id/button" android:layout_alignRight="@+id/editText2"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName "
+            android:id="@+id/textView" android:layout_alignParentTop="true" android:layout_alignLeft="@+id/editText"
+            android:layout_alignRight="@+id/radioButton"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:id="@+id/textView2" android:layout_below="@+id/editText" android:layout_alignLeft="@+id/textView"/>
+</RelativeLayout>

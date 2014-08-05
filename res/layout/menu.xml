@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="WELKOM"
+            android:id="@+id/textView"
+            android:layout_marginTop="38dp"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:id="@+id/about" android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+            android:layout_marginLeft="54dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special"
+            android:id="@+id/back" android:layout_alignTop="@+id/about" android:layout_toRightOf="@+id/textView"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LogOut"
+            android:id="@+id/logout" android:layout_below="@+id/back" android:layout_toRightOf="@+id/about"
+            android:layout_marginTop="72dp"/>
+</RelativeLayout>

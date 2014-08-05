@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item android:id="@+id/action_search"
+              android:icon="@drawable/components"
+              android:title="About"
+                />
+        <item android:id="@+id/action_login"
+              android:icon="@drawable/icon"
+              android:title="Special"
+                />
+           < item android:id="@+id/search"
+            android:icon="@drawable/components"
+            android:title="@string/hello"
+            android:showAsAction="ifRoom"
+
+            />
+
+    < item android:id="@+id/action_refresh"
+           android:icon="@drawable/components"
+           android:title="@string/hello"
+           android:showAsAction="ifRoom"
+
+            />
+
+
+
+</menu>
